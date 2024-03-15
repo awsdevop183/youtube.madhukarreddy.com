@@ -1,0 +1,77 @@
+/* Stylesheet for the website */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+header h1 {
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+.video-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video-thumbnails a {
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+.video-thumbnails img {
+    max-width: 300px;
+    height: auto;
+}
+.video-thumbnails h3 {
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
